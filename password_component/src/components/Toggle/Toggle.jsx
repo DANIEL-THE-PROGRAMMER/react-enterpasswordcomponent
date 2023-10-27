@@ -12,7 +12,7 @@ const Toggle = () => {
         <button onClick={isActive}>
           {active ? <FaToggleOn /> : <FaToggleOff />}
         </button>
-        <b>Stay Signed In</b>;
+        <b>Stay Signed In</b>
       </div>
       <button className="btnContinue">Continue</button>
     </section>

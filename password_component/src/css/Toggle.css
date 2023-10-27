@@ -1,0 +1,45 @@
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btnContinue {
+  cursor: pointer;
+  background: var(--primaryColor);
+  color: var(--bgLogin);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.btnContinue:hover {
+  background: var(--bgLogin);
+  color: var(--primaryColor);
+  border: 0.1px solid var(--primaryColor);
+}
+
+.section-toggle .container_toggle {
+  display: flex;
+  align-items: center;
+}
+
+.container_toggle button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primaryColor);
+  background: transparent;
+  border: none;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .section-toggle {
+    flex-wrap: wrap;
+  }
+}
