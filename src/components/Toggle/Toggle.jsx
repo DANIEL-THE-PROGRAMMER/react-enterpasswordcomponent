@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaToggleOff, FaToggleOn } from "react-icons/fa";
-
 const Toggle = () => {
   const [active, setActive] = useState(false);
   const isActive = () => {
@@ -12,11 +11,10 @@ const Toggle = () => {
         <button onClick={isActive}>
           {active ? <FaToggleOn /> : <FaToggleOff />}
         </button>
-        <b>Stay Signed In</b>
+        <b>Stay signed in</b>
       </div>
       <button className="btnContinue">Continue</button>
     </section>
   );
 };
-
 export default Toggle;
