@@ -1,3 +1,13 @@
 main {
-  background: blue;
+  background: var(--bgLogin);
+  color: var(--primaryColor);
+  width: 24rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 16px 24px 12px -9px var(--primaryColor);
+}
+
+main h1 {
+  text-align: center;
+  margin: 0.5rem;
 }
