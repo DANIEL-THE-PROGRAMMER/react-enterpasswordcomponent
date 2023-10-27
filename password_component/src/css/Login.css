@@ -11,3 +11,14 @@ main h1 {
   text-align: center;
   margin: 0.5rem;
 }
+
+main a,
+main a:visited {
+  padding: 1rem;
+  color: var(--primaryColor);
+  font-weight: 500;
+}
+
+main a:hover {
+  font-weight: 800;
+}

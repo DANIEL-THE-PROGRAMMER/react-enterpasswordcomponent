@@ -10,6 +10,9 @@ const Login = () => {
       <Avatar />
       <Input />
       <Toggle />
+      <a href="/#" target={"_blank"}>
+        Reset Password
+      </a>
     </main>
   );
 };
