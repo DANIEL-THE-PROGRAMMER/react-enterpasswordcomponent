@@ -13,7 +13,7 @@ const Input = () => {
       <b>Password</b>
       <div className="container">
         <div className="container_input">
-          <ion-icon name="lock-closed-outline"></ion-icon>{" "}
+          <ion-icon name="lock-closed-outline"></ion-icon>
           <input type={visible ? "text" : "password"} ref={inputRef} />
         </div>
         <button onClick={isVisible}>
