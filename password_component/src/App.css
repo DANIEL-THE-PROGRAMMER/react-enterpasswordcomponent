@@ -1,5 +1,6 @@
 @import url(css/Login.css);
 @import url(css/Toggle.css);
+@import url(css/Input.css);
 
 #root {
   min-height: 100vh;
